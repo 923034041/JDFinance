@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../components/home/index.vue'
 import Money from '../components/money/index.vue'
 import Ious from '../components/ious/index.vue'
+import Raise from '../components/raise/index.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/ious',
     name: 'ious',
     component: Ious
+  },
+  {
+    path: '/raise',
+    name: 'raise',
+    component: Raise
   }
 ]
 
