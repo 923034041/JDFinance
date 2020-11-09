@@ -5,7 +5,7 @@
     <Daily />
     <In />
     <More />
-    <Footor />
+    <Footor cname="mfooter"/>
     <Navbar />
   </div>
 </template>
@@ -31,4 +31,13 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.mfooter {
+  margin-top: 0 !important;
+  ul {
+    li:first-child {
+      display: none;
+    }
+  }
+}
+</style>
